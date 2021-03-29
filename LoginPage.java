@@ -31,6 +31,11 @@ public class LoginPage {
 		return element;
 	}
 	
+	public static void enterEmail1(WebDriver driver) {
+		element = emailField(driver);
+		element.sendKeys("8898451337");
+	}
+	
 	public static void enterEmail(WebDriver driver) {
 		element = emailField(driver);
 		element.sendKeys("8898451337");
