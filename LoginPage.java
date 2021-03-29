@@ -10,6 +10,9 @@ public class LoginPage {
 	private static String email = "//input[@id='email']";
 	private static String password = "//input[@id='pass']";
 	private static String loginbtn = "//button[@name='login']";
+	private static String email1 = "//input[@id='email']";
+	private static String password2 = "//input[@id='pass']";
+	private static String loginbtn3 = "//button[@name='login']";
 	
 	
 	public LoginPage(WebDriver driver) {
